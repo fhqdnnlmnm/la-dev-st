@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//auth新增的路由开始
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+//auth新增的路由结束
