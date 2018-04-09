@@ -15,9 +15,13 @@
                     @endif
 
                     You are logged in!
+
+
                 </div>
             </div>
         </div>
     </div>
+    <router-link to="/dashbord">Go to Foo</router-link>
+    <router-view></router-view>
 </div>
 @endsection
